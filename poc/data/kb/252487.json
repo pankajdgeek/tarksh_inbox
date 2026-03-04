@@ -1,0 +1,378 @@
+{
+  "property_name": "Zest.Living — Golf Course Road, Sector 55",
+  "property_id": "252487",
+  "host_name": "Zest.Living",
+  "co_host": "Priyanka",
+  "superhost": true,
+  "overall_rating": 4.95,
+  "total_reviews": 279,
+  "beds24_address": "A1/32 zest.living, Golf Course Road, Sector 55, Gurugram, Haryana, India",
+  "booking_com_address": "A1/32 zest.living, 122102 Gurgaon, India",
+  "booking_com_rating": 9.7,
+  "booking_com_reviews": 3,
+
+  "rooms": {
+    "1bhk_apartment": {
+      "id": "537986",
+      "name": "1BHK Apartment",
+      "airbnb_title": "Fully Independent spacious 1 Bhk | Golf course Road",
+      "booking_com_title": "One-Bedroom Superior Apartment",
+      "type": "Fully Independent Spacious 1BHK Apartment",
+      "layout": "Separate living room with sofa + bedroom + attached bathroom + fully equipped kitchen + private balcony",
+      "max_guests": 2,
+      "bedrooms": 1,
+      "beds": "1 king bed + 1 sofa in living room",
+      "bathrooms": 1,
+      "floor": "Units available from 1st to 4th floor, all with balconies (road view or building view)",
+      "highlight": "Extra spacious — guests love the spaciousness for a comfortable stay",
+      "airbnb_rating": 4.86,
+      "airbnb_reviews": 208,
+      "airbnb_url": "https://www.airbnb.co.in/rooms/1296036112137742552",
+      "room_amenities": [
+        "King-size bed with comfortable mattress",
+        "Smart TV — use your own OTT credentials (Netflix, Prime, etc.)",
+        "Dedicated workspace with table and chair",
+        "Sofa in living room",
+        "Air conditioning",
+        "High-speed WiFi in apartment",
+        "Private balcony with glass windows and elegant curtains",
+        "Fully equipped kitchen: refrigerator, microwave, induction cooktop, water purifier (RO), kettle",
+        "Complete cutlery set — extra cooking pots and basic spices on call",
+        "Bathroom: geyser (hot water), exhaust fan, bathroom fan",
+        "Washing machine on terrace (shared, top-load)",
+        "Hair dryer and iron available on call",
+        "Room heater available on chargeable basis",
+        "Complimentary linen and towel change after 3 days"
+      ],
+      "booking_com_amenities": [
+        "Kitchen",
+        "City view",
+        "Washing machine",
+        "Free WiFi",
+        "Balcony",
+        "Bath",
+        "Air conditioning",
+        "Daily housekeeping",
+        "Work desk",
+        "Sofa",
+        "Private entrance",
+        "Terrace"
+      ]
+    },
+    "1rk_studio": {
+      "id": "537985",
+      "name": "1RK Studio",
+      "airbnb_title": "Independent studio | Balcony | Golf course Road",
+      "booking_com_title": "One-Bedroom Apartment with Balcony and City View",
+      "type": "Independent Studio (1RK) with Private Balcony",
+      "layout": "Studio room with bed + kitchenette + attached bathroom + private balcony",
+      "max_guests": 2,
+      "bedrooms": 1,
+      "beds": "1 queen bed",
+      "bathrooms": 1,
+      "floor": "Units available from 1st to 4th floor, all with balconies",
+      "highlight": "Private balcony — compact and cozy for solo travelers and short stays",
+      "airbnb_rating": 4.91,
+      "airbnb_reviews": 56,
+      "airbnb_url": "https://www.airbnb.co.in/rooms/1289459627148132072",
+      "room_amenities": [
+        "Queen bed",
+        "Smart TV — use your own OTT credentials",
+        "Air conditioning",
+        "High-speed WiFi in apartment",
+        "Private balcony with glass windows and elegant curtains",
+        "Fully equipped kitchen: refrigerator, microwave, induction cooktop, water purifier (RO)",
+        "Complete cutlery set — extra cooking pots on call",
+        "Bathroom: geyser (hot water), exhaust fan",
+        "Washing machine on terrace (shared, top-load)",
+        "Hair dryer and iron available on call",
+        "Room heater available on chargeable basis",
+        "Complimentary linen and towel change after 3 days"
+      ],
+      "not_provided_in_studio": [
+        "Dental kit — not provided",
+        "Slippers — not provided",
+        "Dedicated workspace (available in 1BHK only)"
+      ]
+    }
+  },
+
+  "check_in": {
+    "time": "14:00",
+    "booking_com_check_in": "Available 24 hours (Booking.com allows flexible check-in)",
+    "early_check_in": "Subject to availability",
+    "instructions": [
+      "Inform property in advance of expected arrival time",
+      "Valid ID must be provided: 24 hours before (Studio — to receive access code) or at check-in (1BHK)",
+      "Foreign nationals must provide details for FRRO registration",
+      "Staff available to provide keys at the apartment",
+      "Building has biometric access and CCTV for safety",
+      "All deliveries to be collected by guests at ground floor for security"
+    ],
+    "self_check_in": false,
+    "check_in_type": "Caretaker-assisted — call caretaker Kabil at +91-9958881993 on arrival. He will verify IDs and hand over keys.",
+    "key_location": "1BHK: Keys provided by caretaker Kabil. Studio: Access code sent after ID verification.",
+    "guest_review_note": "Guests say check-in is very smooth and hassle-free, even for late arrivals (23:30+)"
+  },
+
+  "check_out": {
+    "time": "10:00",
+    "booking_com_checkout": "10:00 to 11:00",
+    "late_check_out": "Subject to availability",
+    "instructions": [
+      "Turn off all appliances (AC, TV, lights, geyser)",
+      "Put trash in dustbin",
+      "1BHK: Leave keys inside the apartment. Studio: Leave keys in key pickup box",
+      "Drop us a message confirming checkout",
+      "Any breakage or loss of keys: INR 500 charge"
+    ]
+  },
+
+  "wifi": {
+    "network_name": "Zest.Living",
+    "password": "zen@394#",
+    "speed": "70-80 Mbps (Airtel fiber, 5G band recommended)",
+    "note": "IMPORTANT: Connect to 'Zest.Living' (capital Z). A building-wide router 'zest.living' (lowercase) exists — do NOT connect to it, gives only 5 Mbps. If slow, switch to 5G band on the correct SSID."
+  },
+
+  "amenities": {
+    "in_room": [
+      "Air conditioning",
+      "Smart TV — bring your own OTT credentials (Netflix, Prime, Hotstar)",
+      "King-size bed (1BHK) / Queen bed (Studio)",
+      "Sofa in living room (1BHK only)",
+      "Dedicated workspace — table and chair (1BHK only)",
+      "Private balcony with glass windows and elegant curtains",
+      "City view or building view depending on unit assigned"
+    ],
+    "kitchen": [
+      "Induction cooktop",
+      "Microwave",
+      "Electric kettle",
+      "Refrigerator",
+      "RO water purifier (purified drinking water)",
+      "Complete cutlery set",
+      "Extra cooking pots available on call",
+      "Basic spices available on call"
+    ],
+    "bathroom": [
+      "Geyser (hot water)",
+      "Exhaust fan",
+      "Bathroom fan",
+      "Toilet roll",
+      "Note: Dental kit and slippers NOT provided in Studio"
+    ],
+    "laundry": [
+      "Top-load washing machine on terrace (shared)",
+      "Cloth stand / drying rack"
+    ],
+    "on_call": [
+      "Hair dryer — available on request",
+      "Iron — available on request",
+      "Extra cooking pots — available on request",
+      "Room heater — chargeable basis"
+    ],
+    "building": [
+      "Lift / elevator",
+      "24/7 security guard",
+      "Biometric entrance access",
+      "CCTV surveillance (exterior cameras)",
+      "Power backup / uninterrupted power supply",
+      "Housekeeping: 10 AM - 5 PM (1BHK), 12 PM - 5 PM (Studio)"
+    ],
+    "linen_policy": "Complimentary change of bed linens and towels after 3 days. Daily change available at INR 200/day.",
+    "not_provided": [
+      "Carbon monoxide alarm — not reported",
+      "Smoke alarm — not reported",
+      "Dental kit and slippers (Studio only — not provided)",
+      "Hotel-style room service"
+    ]
+  },
+
+  "house_rules": [
+    "Maximum 2 guests per apartment — strictly no extra persons or outside guests. Violations may result in immediate eviction",
+    "No parties or events — INR 3,000 fine for violations",
+    "No smoking indoors — INR 2,000 charge for smoke/burn damage; smoking only on terrace/balcony",
+    "No room decorations of any kind",
+    "Keep TV volume low — other guests share the building",
+    "Late check-in and late check-out subject to availability",
+    "All deliveries/couriers must be collected at ground floor",
+    "No pets allowed",
+    "Children are not allowed (Booking.com policy for this property)",
+    "Hen/stag parties not allowed",
+    "We are an Airbnb rental home for short & long stays, not a hotel — please make yourself at home",
+    "Loss of keys: INR 500 charge"
+  ],
+
+  "directions": {
+    "address": "A1/32, Golf Course Road, Sector 55, Gurugram, Haryana 122102, India",
+    "google_maps_link": "https://maps.app.goo.gl/1b9h3mzC1KyPAdfn7",
+    "google_maps_area": "Golf Course Road, Sector 55, near Sector 54 Chowk metro — search 'zest.living sector 55' on Google Maps",
+    "from_airport": "IGI Delhi International Airport: 13-20 KM (20-25 minutes drive)",
+    "nearest_metro": [
+      "Sector 54 Chowk Rapid Metro: 500m (3 min walk)",
+      "Sector 55-56 Metro Station: 600m (7 min walk)",
+      "Sikanderpur Rapid Metro: 6 KM (4-5 min by cab/auto)",
+      "Huda City Centre Metro: 6 KM"
+    ],
+    "landmarks": [
+      "Sun City Business Tower: 5 min walk",
+      "Paras Twin Tower: 7 min walk",
+      "E&Y Office: 3 KM",
+      "One Horizon Centre (DELL, Samsung): 3 KM",
+      "Global Foyer, Sector 43: 3 KM",
+      "Cyber Hub: 8 KM (10-12 min drive via Raghvendra Marg)",
+      "Qutub Minar: 17 KM",
+      "WorldMark Gurgaon: 6 KM",
+      "MG Road: 7 KM"
+    ],
+    "area_description": "Posh area of Gurgaon on Golf Course Road, well connected to major corporate offices, shopping malls, and metro stations. Located in a residential area — guests describe it as safe, clean, quiet neighborhood."
+  },
+
+  "parking": {
+    "available": true,
+    "type": "Free street parking + Paid indoor parking",
+    "details": "Free on-street parking or on vacant plot. Paid parking inside premises: INR 500/day (limited slots, subject to availability).",
+    "booking_com_note": "Parking available"
+  },
+
+  "nearby": {
+    "restaurants": [
+      { "name": "Ovenderful", "type": "Restaurant", "distance": "250m" },
+      { "name": "Tastebox Tiffin Service", "type": "Restaurant", "distance": "300m" },
+      { "name": "Shanghai Cafe", "type": "Restaurant", "distance": "450m" },
+      { "name": "Various restaurants, malls, and shops in the area", "distance": "Walkable or short cab ride" }
+    ],
+    "attractions": [
+      { "name": "Cyber Hub", "distance": "8 KM (10-12 min drive)" },
+      { "name": "Ambience Mall", "distance": "Short drive" },
+      { "name": "Qutub Minar", "distance": "17 KM" },
+      { "name": "Park-Sector 56", "distance": "1.2 KM" },
+      { "name": "Tau Devi Lal Biodiversity Park", "distance": "2.2 KM" }
+    ],
+    "hospitals": [
+      { "name": "Nearby clinics and pharmacies", "distance": "Walking distance" }
+    ],
+    "corporate_offices": [
+      { "name": "Sun City Business Tower", "distance": "5 min walk" },
+      { "name": "Paras Twin Tower", "distance": "7 min walk" },
+      { "name": "E&Y Office", "distance": "3 KM" },
+      { "name": "One Horizon Centre (DELL, Samsung)", "distance": "3 KM" },
+      { "name": "Global Foyer, Sector 43", "distance": "3 KM" }
+    ],
+    "transit": [
+      { "name": "Sector 54 Chowk Rapid Metro", "distance": "500m (3 min walk)" },
+      { "name": "Sector 55-56 Metro Station", "distance": "600m (7 min walk)" },
+      { "name": "Sikanderpur Rapid Metro", "distance": "6 KM" },
+      { "name": "Huda City Centre Metro", "distance": "6 KM" }
+    ]
+  },
+
+  "emergency": {
+    "contact_name": "Priyanka (Host)",
+    "phone": "+91-9773950713",
+    "backup_phone": "+91-9958881993",
+    "on_site_staff": "Caretaker: Kabil (+91-9958881993) — available for check-in/out, housekeeping, and daily assistance",
+    "response_time": "Responds within an hour (100% response rate)",
+    "nearest_hospital": "Nearby clinics within walking distance",
+    "security": "24/7 security guard, biometric entrance, CCTV surveillance"
+  },
+
+  "custom_faqs": [
+    {
+      "question": "What's the difference between the 1BHK and Studio (1RK)?",
+      "answer": "The 1BHK is more spacious with a separate living room, king bed, sofa, dedicated workspace with table and chair — ideal for longer stays and working professionals. The Studio (1RK) has a queen bed, private balcony, and is more compact — perfect for solo travelers or short stays. Both have full kitchens, AC, WiFi, and Smart TV."
+    },
+    {
+      "question": "Can I use Netflix/Prime on the TV?",
+      "answer": "Yes, we have Smart TVs in all rooms. Please log in with your own OTT credentials (Netflix, Amazon Prime, Hotstar, etc.). We don't provide shared accounts."
+    },
+    {
+      "question": "Is housekeeping provided?",
+      "answer": "Yes! Housekeeping is available during daytime: 10 AM - 5 PM for 1BHK, 12 PM - 5 PM for Studio. Complimentary linen and towel change after 3 days. Daily change available at INR 200/day."
+    },
+    {
+      "question": "How close is the metro?",
+      "answer": "Very close! Sector 54 Chowk Rapid Metro is just 500m away (3 min walk). Sector 55-56 Metro Station is 600m (7 min walk). Great connectivity to all of Gurgaon and Delhi."
+    },
+    {
+      "question": "Is this property good for long stays or corporate stays?",
+      "answer": "Absolutely! Designed for working professionals with fully equipped kitchen, washing machine, dedicated workspace (1BHK), high-speed WiFi, and all essentials. Many guests stay for work trips and extended visits. Located near major corporate offices (E&Y, DELL, Samsung)."
+    },
+    {
+      "question": "Do you provide a room heater in winter?",
+      "answer": "Yes, room heaters are available on a chargeable basis. Please note: bringing your own heater or heavy appliances will incur electricity charges."
+    },
+    {
+      "question": "What kitchen items are available?",
+      "answer": "Full kitchen: induction cooktop, microwave, electric kettle, refrigerator, RO water purifier (clean drinking water), and complete cutlery. Extra cooking pots and basic spices available on call. Hair dryer and iron also on call."
+    },
+    {
+      "question": "Is the building secure?",
+      "answer": "Yes — 24/7 security guard, biometric entrance access, and CCTV surveillance. Guests mention feeling very safe. All deliveries must be collected at ground floor for everyone's safety."
+    },
+    {
+      "question": "Which floor will I get?",
+      "answer": "Units are available from 1st to 4th floor, all with balconies. Views face either the road or adjacent building. We assign any available unit."
+    },
+    {
+      "question": "Can I check in late at night?",
+      "answer": "Yes, late check-in is possible. Booking.com shows 24-hour check-in availability. Guests have checked in as late as 23:30 with no issues — building has security guard available."
+    },
+    {
+      "question": "Are groceries and food delivery available?",
+      "answer": "Yes! Blinkit and Zomato deliver to the property. There are also restaurants within walking distance (Ovenderful at 250m, Shanghai Cafe at 450m). Plenty of restaurants, malls, and shops in the area. All deliveries must be collected at ground floor."
+    },
+    {
+      "question": "Is there an airport shuttle?",
+      "answer": "No airport shuttle service. IGI Airport is 13-20 KM away (20-25 min drive). You can easily book an Uber/Ola cab."
+    },
+    {
+      "question": "Do you provide dental kit and slippers?",
+      "answer": "Dental kit and slippers are NOT provided in the Studio (1RK). The 1BHK may have basic toiletries. We recommend bringing your own dental kit."
+    },
+    {
+      "question": "What do guests say about this property?",
+      "answer": "Guests love the spaciousness, cleanliness, and location. Common praise: 'felt like home', 'super responsive host', 'near metro station', 'clean and well-maintained', 'great for longer stays'. Rated 4.86-4.91 on Airbnb and 9.7 on Booking.com."
+    },
+    {
+      "question": "The WiFi is very slow. What should I do?",
+      "answer": "Make sure you're connected to the correct router. The SSID is 'Zest.Living' with a capital Z. There is a building-wide router with a similar name in lowercase ('zest.living') — do NOT connect to that one. If still slow, try the 5G band. The correct apartment router gives 70-80 Mbps. Let us know your floor and room if the issue persists."
+    },
+    {
+      "question": "Is check-in self-service or does someone help?",
+      "answer": "Someone from our team will assist you. Once you reach the property, call caretaker Kabil at +91-9958881993. He will verify your ID and hand over the keys. It's not fully self-service."
+    },
+    {
+      "question": "Where do I leave the key at checkout?",
+      "answer": "Please hand the key to the caretaker. If no one is present, inform us via message before leaving. Do not leave the key unattended."
+    },
+    {
+      "question": "Can I get cooking oil and spices?",
+      "answer": "Yes, basic cooking essentials like cooking oil and spices can be requested. We deliver them within 10-15 minutes via housekeeping staff. These are provided on request and not stocked in the unit at all times."
+    },
+    {
+      "question": "Can someone help with my luggage?",
+      "answer": "Yes, our caretaker Kabil can help you with luggage. Call him at +91-9958881993 when you arrive."
+    },
+    {
+      "question": "I'm a foreign guest. Do I need anything extra for check-in?",
+      "answer": "Yes, in addition to your photo ID, you must upload a copy of your visa when filling out the web check-in form at https://user.zest.living/verification."
+    },
+    {
+      "question": "Can I get housekeeping more than once a day?",
+      "answer": "Standard housekeeping is once per day between 9 AM and 4 PM. Additional visits can be arranged on request but may be chargeable."
+    },
+    {
+      "question": "Is parking available for my car?",
+      "answer": "Yes, free street parking is available outside the building. There is a night guard on duty. Paid indoor parking: INR 500/day (limited slots, subject to availability)."
+    }
+  ],
+
+  "response_preferences": {
+    "tone": "friendly",
+    "language": "english",
+    "signature": "Warm regards,\nTeam Zest.Living",
+    "max_response_length": 500
+  }
+}

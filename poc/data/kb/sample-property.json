@@ -1,0 +1,103 @@
+{
+  "property_name": "Sunset Villa, Goa",
+  "check_in": {
+    "time": "14:00",
+    "early_check_in": "Subject to availability, contact us to request",
+    "instructions": [
+      "Property address: 123 Beach Road, Calangute, Goa",
+      "You will find a lockbox at the main gate",
+      "Lockbox code will be shared 1 hour before check-in",
+      "Open the gate and walk straight to the main entrance",
+      "Keys are inside the lockbox"
+    ],
+    "self_check_in": true,
+    "key_location": "Lockbox at the main gate"
+  },
+  "check_out": {
+    "time": "11:00",
+    "late_check_out": "Available until 1 PM for an additional charge of INR 1000, subject to availability",
+    "instructions": [
+      "Please return keys to the lockbox",
+      "Ensure all windows and doors are locked",
+      "Place used towels in the bathroom",
+      "Take all your belongings"
+    ]
+  },
+  "wifi": {
+    "network_name": "SunsetVilla_Guest",
+    "password": "welcome2024"
+  },
+  "amenities": [
+    "Swimming pool (open 7 AM - 9 PM)",
+    "Fully equipped kitchen",
+    "Washing machine",
+    "Air conditioning in all bedrooms",
+    "Free parking (2 cars)",
+    "BBQ grill",
+    "Garden area",
+    "Beach towels provided"
+  ],
+  "house_rules": [
+    "No smoking inside the property",
+    "No parties or events",
+    "Quiet hours: 10 PM - 8 AM",
+    "Maximum 8 guests",
+    "Pets allowed (small dogs only, prior approval required)",
+    "No outside guests without prior permission"
+  ],
+  "directions": {
+    "address": "123 Beach Road, Calangute, Goa 403516",
+    "from_airport": "Dabolim Airport is 45 min drive. Take NH66 towards Calangute. Turn right at the Calangute junction.",
+    "from_station": "Thivim Railway Station is 30 min drive. Take the road towards Mapusa, then Calangute.",
+    "landmarks": "Near St. Alex Church, Calangute. 5 min walk from Calangute Beach."
+  },
+  "parking": {
+    "available": true,
+    "type": "Free",
+    "instructions": "Free covered parking for 2 cars. Street parking available for additional vehicles."
+  },
+  "nearby": {
+    "restaurants": [
+      { "name": "Souza Lobo", "cuisine": "Goan seafood", "distance": "5 min walk" },
+      { "name": "Infantaria", "cuisine": "Bakery and cafe", "distance": "10 min walk" },
+      { "name": "Thalassa", "cuisine": "Greek cuisine with ocean view", "distance": "15 min drive" }
+    ],
+    "attractions": [
+      { "name": "Calangute Beach", "distance": "5 min walk" },
+      { "name": "Baga Beach", "distance": "10 min drive" },
+      { "name": "Fort Aguada", "distance": "20 min drive" },
+      { "name": "Saturday Night Market, Arpora", "distance": "15 min drive" }
+    ],
+    "pharmacies": [
+      { "name": "Calangute Pharmacy", "distance": "5 min walk" }
+    ],
+    "atms": [
+      { "name": "SBI ATM", "distance": "5 min walk" }
+    ]
+  },
+  "emergency": {
+    "contact_name": "Ravi (Property Manager)",
+    "phone": "+91-9876543210",
+    "nearest_hospital": "Calangute Health Center (10 min drive)",
+    "local_police": "Calangute Police Station: +91-832-2276001"
+  },
+  "custom_faqs": [
+    {
+      "question": "Is the pool heated?",
+      "answer": "The pool is not heated, but water temperature is pleasant year-round in Goa."
+    },
+    {
+      "question": "Can I arrange a cook?",
+      "answer": "Yes! We can arrange a local cook for your meals. Please let us know at least 24 hours in advance. Cost is approximately INR 500-800 per meal depending on the menu."
+    },
+    {
+      "question": "Are there mosquitoes?",
+      "answer": "Goa is tropical, so mosquitoes are present especially in the evenings. We provide mosquito repellent and the bedrooms have window screens. We recommend using the repellent during sunset hours."
+    }
+  ],
+  "response_preferences": {
+    "tone": "friendly",
+    "language": "english",
+    "signature": "Best regards,\nTeam Sunset Villa"
+  }
+}

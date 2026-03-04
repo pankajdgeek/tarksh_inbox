@@ -1,0 +1,924 @@
+[
+  {
+    "id": "4ef3f9bc-3c15-43f9-af08-de2a9cbd7f57",
+    "pipelineResult": {
+      "id": "4ef3f9bc-3c15-43f9-af08-de2a9cbd7f57",
+      "message": "What is the WiFi password?",
+      "timestamp": "2026-03-04T13:49:44.272Z",
+      "classification": {
+        "intent": "wifi_query",
+        "stage": "during_stay",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 35517
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "wifi.network_name",
+          "wifi.password"
+        ],
+        "fieldsFound": [
+          "wifi.network_name",
+          "wifi.password"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Sunset Villa, Goa",
+          "wifi.network_name": "SunsetVilla_Guest",
+          "wifi.password": "welcome2024",
+          "wifi": {
+            "network_name": "SunsetVilla_Guest",
+            "password": "welcome2024"
+          }
+        }
+      },
+      "generation": {
+        "response": "Hello Guest! You can connect to our WiFi using the network name **SunsetVilla_Guest** with the password **welcome2024**. Enjoy your stay!\n\nBest regards,\nTeam Sunset Villa",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 12621
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (wifi.network_name, wifi.password) — high confidence auto-send",
+      "totalLatencyMs": 48138,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T13:49:44.272Z"
+  },
+  {
+    "id": "ef24bd15-1715-44d3-9847-06c2cea76d6a",
+    "pipelineResult": {
+      "id": "ef24bd15-1715-44d3-9847-06c2cea76d6a",
+      "message": "What time is check-in?",
+      "timestamp": "2026-03-04T13:50:51.439Z",
+      "classification": {
+        "intent": "check_in_info",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 28135
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "check_in.time",
+          "check_in.instructions"
+        ],
+        "fieldsFound": [
+          "check_in.time",
+          "check_in.instructions"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Sunset Villa, Goa",
+          "check_in.time": "14:00",
+          "check_in.instructions": [
+            "Property address: 123 Beach Road, Calangute, Goa",
+            "You will find a lockbox at the main gate",
+            "Lockbox code will be shared 1 hour before check-in",
+            "Open the gate and walk straight to the main entrance",
+            "Keys are inside the lockbox"
+          ],
+          "check_in": {
+            "time": "14:00",
+            "early_check_in": "Subject to availability, contact us to request",
+            "instructions": [
+              "Property address: 123 Beach Road, Calangute, Goa",
+              "You will find a lockbox at the main gate",
+              "Lockbox code will be shared 1 hour before check-in",
+              "Open the gate and walk straight to the main entrance",
+              "Keys are inside the lockbox"
+            ],
+            "self_check_in": true,
+            "key_location": "Lockbox at the main gate"
+          }
+        }
+      },
+      "generation": {
+        "response": "Hello Guest,\n\nCheck-in at Sunset Villa, Goa is from 14:00. Early check-in is subject to availability, so please let us know if you'd like to request it!\n\nBest regards,\nTeam Sunset Villa",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 11937
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (check_in.time, check_in.instructions) — high confidence auto-send",
+      "totalLatencyMs": 40072,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T13:50:51.439Z"
+  },
+  {
+    "id": "b092b819-58d4-4ddc-8b21-570a7f6a4cf0",
+    "pipelineResult": {
+      "id": "b092b819-58d4-4ddc-8b21-570a7f6a4cf0",
+      "message": "I want a refund for my booking",
+      "timestamp": "2026-03-04T13:57:47.841Z",
+      "classification": {
+        "intent": "refund_request",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 41234
+      },
+      "isNeverAuto": true,
+      "kbMatch": null,
+      "generation": null,
+      "routingDecision": "never_auto",
+      "routingReason": "Intent \"refund_request\" is in NEVER_AUTO list — always requires human handling",
+      "totalLatencyMs": 41234,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T13:57:47.841Z"
+  },
+  {
+    "id": "3c46ea98-e189-42c7-a85a-c02f82fe05be",
+    "pipelineResult": {
+      "id": "3c46ea98-e189-42c7-a85a-c02f82fe05be",
+      "message": "I want a refund for my booking",
+      "timestamp": "2026-03-04T13:59:37.096Z",
+      "classification": {
+        "intent": "refund_request",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 28424
+      },
+      "isNeverAuto": true,
+      "kbMatch": null,
+      "generation": null,
+      "routingDecision": "never_auto",
+      "routingReason": "Intent \"refund_request\" is in NEVER_AUTO list — always requires human handling",
+      "totalLatencyMs": 28424,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T13:59:37.096Z"
+  },
+  {
+    "id": "4a4ec84b-3970-4130-ac7b-c3935bf87674",
+    "pipelineResult": {
+      "id": "4a4ec84b-3970-4130-ac7b-c3935bf87674",
+      "message": "Where can I park my car?",
+      "timestamp": "2026-03-04T14:01:00.444Z",
+      "classification": {
+        "intent": "parking_info",
+        "stage": "during_stay",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 55448
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "parking.available"
+        ],
+        "fieldsFound": [
+          "parking.available"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Sunset Villa, Goa",
+          "parking.available": true,
+          "parking": {
+            "available": true,
+            "type": "Free",
+            "instructions": "Free covered parking for 2 cars. Street parking available for additional vehicles."
+          }
+        }
+      },
+      "generation": {
+        "response": "Hi Guest,\n\nWe offer free covered parking for up to 2 cars at the villa. If you have any additional vehicles, street parking is also available.\n\nBest regards,\nTeam Sunset Villa",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 14494
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (parking.available) — high confidence auto-send",
+      "totalLatencyMs": 69942,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T14:01:00.444Z"
+  },
+  {
+    "id": "d0a50f6a-6742-466a-ba0e-d8dfa437586d",
+    "pipelineResult": {
+      "id": "d0a50f6a-6742-466a-ba0e-d8dfa437586d",
+      "message": "What's the WiFi password?",
+      "timestamp": "2026-03-04T14:02:13.818Z",
+      "classification": {
+        "intent": "wifi_query",
+        "stage": "during_stay",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 20104
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "wifi.network_name",
+          "wifi.password"
+        ],
+        "fieldsFound": [
+          "wifi.network_name",
+          "wifi.password"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Sunset Villa, Goa",
+          "wifi.network_name": "SunsetVilla_Guest",
+          "wifi.password": "welcome2024",
+          "wifi": {
+            "network_name": "SunsetVilla_Guest",
+            "password": "welcome2024"
+          }
+        }
+      },
+      "generation": {
+        "response": "Hi Guest! To connect to our WiFi, please use the network \"SunsetVilla_Guest\" with the password \"welcome2024\".\n\nBest regards,\nTeam Sunset Villa",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 15454
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (wifi.network_name, wifi.password) — high confidence auto-send",
+      "totalLatencyMs": 35558,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T14:02:13.818Z"
+  },
+  {
+    "id": "4ad29b38-e5e4-46f4-b8c2-fd21de10332d",
+    "pipelineResult": {
+      "id": "4ad29b38-e5e4-46f4-b8c2-fd21de10332d",
+      "message": "What time is check-in?",
+      "timestamp": "2026-03-04T14:19:44.778Z",
+      "classification": {
+        "intent": "check_in_info",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 18624
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "check_in.time",
+          "check_in.instructions"
+        ],
+        "fieldsFound": [
+          "check_in.time",
+          "check_in.instructions"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Zest.Living — Golf Course Road, Sector 42",
+          "check_in.time": "14:00",
+          "check_in.instructions": [
+            "Valid ID must be provided before or during check-in time",
+            "Foreign nationals must provide details for FRRO registration",
+            "Staff will provide keys at the apartment",
+            "Building has biometric entrance and CCTV surveillance",
+            "Couriers to be collected downstairs for everyone's safety"
+          ],
+          "check_in": {
+            "time": "14:00",
+            "early_check_in": "Subject to availability",
+            "instructions": [
+              "Valid ID must be provided before or during check-in time",
+              "Foreign nationals must provide details for FRRO registration",
+              "Staff will provide keys at the apartment",
+              "Building has biometric entrance and CCTV surveillance",
+              "Couriers to be collected downstairs for everyone's safety"
+            ],
+            "self_check_in": true,
+            "key_location": "Keys provided by on-site staff"
+          }
+        }
+      },
+      "generation": {
+        "response": "Hi Guest, check-in time is 14:00. Early check-in is subject to availability. Please ensure you have a valid ID ready, as our staff will meet you at the apartment to provide the keys.\n\nWarm regards,\nTeam Zest.Living",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 15781
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (check_in.time, check_in.instructions) — high confidence auto-send",
+      "totalLatencyMs": 34405,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T14:19:44.778Z"
+  },
+  {
+    "id": "3a5e4882-153e-4c54-8ffc-5c9bea297da7",
+    "pipelineResult": {
+      "id": "3a5e4882-153e-4c54-8ffc-5c9bea297da7",
+      "message": "What amenities does the 1BHK have?",
+      "timestamp": "2026-03-04T14:35:43.057Z",
+      "classification": {
+        "intent": "amenities_query",
+        "stage": "pre_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 35347
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "amenities"
+        ],
+        "fieldsFound": [
+          "amenities"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Zest.Living — Golf Course Road, Sector 55",
+          "amenities": {
+            "in_room": [
+              "Air conditioning",
+              "Smart TV — bring your own OTT credentials (Netflix, Prime, Hotstar)",
+              "King-size bed (1BHK) / Queen bed (Studio)",
+              "Sofa in living room (1BHK only)",
+              "Dedicated workspace — table and chair (1BHK only)",
+              "Private balcony with glass windows and elegant curtains",
+              "City view or building view depending on unit assigned"
+            ],
+            "kitchen": [
+              "Induction cooktop",
+              "Microwave",
+              "Electric kettle",
+              "Refrigerator",
+              "RO water purifier (purified drinking water)",
+              "Complete cutlery set",
+              "Extra cooking pots available on call",
+              "Basic spices available on call"
+            ],
+            "bathroom": [
+              "Geyser (hot water)",
+              "Exhaust fan",
+              "Bathroom fan",
+              "Toilet roll",
+              "Note: Dental kit and slippers NOT provided in Studio"
+            ],
+            "laundry": [
+              "Top-load washing machine on terrace (shared)",
+              "Cloth stand / drying rack"
+            ],
+            "on_call": [
+              "Hair dryer — available on request",
+              "Iron — available on request",
+              "Extra cooking pots — available on request",
+              "Room heater — chargeable basis"
+            ],
+            "building": [
+              "Lift / elevator",
+              "24/7 security guard",
+              "Biometric entrance access",
+              "CCTV surveillance (exterior cameras)",
+              "Power backup / uninterrupted power supply",
+              "Housekeeping: 10 AM - 5 PM (1BHK), 12 PM - 5 PM (Studio)"
+            ],
+            "linen_policy": "Complimentary change of bed linens and towels after 3 days. Daily change available at INR 200/day.",
+            "not_provided": [
+              "Carbon monoxide alarm — not reported",
+              "Smoke alarm — not reported",
+              "Dental kit and slippers (Studio only — not provided)",
+              "Hotel-style room service"
+            ]
+          }
+        }
+      },
+      "generation": {
+        "response": "Hi Guest! Our 1BHK features a king-size bed, a sofa in the living room, and a dedicated workspace. You'll have air conditioning, a Smart TV, and a private balcony. The kitchen is fully equipped with an induction, microwave, fridge, and RO water. We also provide 24/7 security, power backup, and shared laundry on the terrace. Housekeeping for 1BHK units is available from 10 AM to 5 PM.\n\nWarm regards,\nTeam Zest.Living",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 19712
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (amenities) — high confidence auto-send",
+      "totalLatencyMs": 55059,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T14:35:43.057Z"
+  },
+  {
+    "id": "244f2f37-8968-4685-a4c8-1722275ca812",
+    "pipelineResult": {
+      "id": "244f2f37-8968-4685-a4c8-1722275ca812",
+      "message": "what are the security you have and what about the parking",
+      "guestName": "Pankaj",
+      "timestamp": "2026-03-04T16:20:53.201Z",
+      "classification": {
+        "intent": "multi_intent",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 44040
+      },
+      "isNeverAuto": true,
+      "kbMatch": null,
+      "generation": null,
+      "routingDecision": "never_auto",
+      "routingReason": "Intent \"multi_intent\" is in NEVER_AUTO list — always requires human handling",
+      "totalLatencyMs": 44041,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:20:53.201Z"
+  },
+  {
+    "id": "357533e3-6baa-4fc9-9fb6-b29c2fc34292",
+    "pipelineResult": {
+      "id": "357533e3-6baa-4fc9-9fb6-b29c2fc34292",
+      "message": "what are the security you have and what about the parking",
+      "guestName": "Pankaj",
+      "timestamp": "2026-03-04T16:24:00.292Z",
+      "classification": {
+        "intent": "multi_intent",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 17881
+      },
+      "isNeverAuto": true,
+      "kbMatch": {
+        "hasData": false,
+        "confidence": "low",
+        "fieldsRequired": [],
+        "fieldsFound": [],
+        "fieldsMissing": [],
+        "kbData": {}
+      },
+      "generation": null,
+      "routingDecision": "never_auto",
+      "routingReason": "Intent \"multi_intent\" is in NEVER_AUTO list — always requires human handling",
+      "totalLatencyMs": 17881,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:24:00.292Z"
+  },
+  {
+    "id": "7b6fc020-5348-49f7-a240-52963ec9f4dd",
+    "pipelineResult": {
+      "id": "7b6fc020-5348-49f7-a240-52963ec9f4dd",
+      "message": "what is the security option you have and do you have parking",
+      "guestName": "Pankaj",
+      "timestamp": "2026-03-04T16:25:14.537Z",
+      "classification": {
+        "intent": "multi_intent",
+        "stage": "pre_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 23128
+      },
+      "isNeverAuto": true,
+      "kbMatch": {
+        "hasData": false,
+        "confidence": "low",
+        "fieldsRequired": [],
+        "fieldsFound": [],
+        "fieldsMissing": [],
+        "kbData": {}
+      },
+      "generation": null,
+      "routingDecision": "never_auto",
+      "routingReason": "Intent \"multi_intent\" is in NEVER_AUTO list — always requires human handling",
+      "totalLatencyMs": 23128,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:25:14.537Z"
+  },
+  {
+    "id": "292a979d-4bd3-49fa-b009-6ef3cc5b01c8",
+    "pipelineResult": {
+      "id": "292a979d-4bd3-49fa-b009-6ef3cc5b01c8",
+      "message": "do you have parking",
+      "guestName": "Pankaj",
+      "timestamp": "2026-03-04T16:27:20.207Z",
+      "classification": {
+        "intent": "parking_info",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 13837
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "parking.available"
+        ],
+        "fieldsFound": [
+          "parking.available"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Zest.Living — Golf Course Road, Sector 55",
+          "parking.available": true,
+          "parking": {
+            "available": true,
+            "type": "Free street parking + Paid indoor parking",
+            "details": "Free on-street parking or on vacant plot. Paid parking inside premises: INR 500/day (limited slots, subject to availability).",
+            "booking_com_note": "Parking available"
+          }
+        }
+      },
+      "generation": {
+        "response": "Hi Pankaj! Yes, we have parking available. We offer free street parking on the street or a nearby vacant plot. Additionally, we have paid indoor parking available inside the premises, though slots are limited and subject to availability.\n\nWarm regards,\nTeam Zest.Living",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 17639
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (parking.available) — high confidence auto-send",
+      "totalLatencyMs": 31476,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:27:20.207Z"
+  },
+  {
+    "id": "6ed3cae5-dc09-4026-b4ab-68fa597cc30f",
+    "pipelineResult": {
+      "id": "6ed3cae5-dc09-4026-b4ab-68fa597cc30f",
+      "message": "do you have security gurad",
+      "timestamp": "2026-03-04T16:29:54.472Z",
+      "classification": {
+        "intent": "property_features",
+        "stage": "pre_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 47030
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "amenities"
+        ],
+        "fieldsFound": [
+          "amenities"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Zest.Living — Golf Course Road, Sector 55",
+          "amenities": {
+            "in_room": [
+              "Air conditioning",
+              "Smart TV — bring your own OTT credentials (Netflix, Prime, Hotstar)",
+              "King-size bed (1BHK) / Queen bed (Studio)",
+              "Sofa in living room (1BHK only)",
+              "Dedicated workspace — table and chair (1BHK only)",
+              "Private balcony with glass windows and elegant curtains",
+              "City view or building view depending on unit assigned"
+            ],
+            "kitchen": [
+              "Induction cooktop",
+              "Microwave",
+              "Electric kettle",
+              "Refrigerator",
+              "RO water purifier (purified drinking water)",
+              "Complete cutlery set",
+              "Extra cooking pots available on call",
+              "Basic spices available on call"
+            ],
+            "bathroom": [
+              "Geyser (hot water)",
+              "Exhaust fan",
+              "Bathroom fan",
+              "Toilet roll",
+              "Note: Dental kit and slippers NOT provided in Studio"
+            ],
+            "laundry": [
+              "Top-load washing machine on terrace (shared)",
+              "Cloth stand / drying rack"
+            ],
+            "on_call": [
+              "Hair dryer — available on request",
+              "Iron — available on request",
+              "Extra cooking pots — available on request",
+              "Room heater — chargeable basis"
+            ],
+            "building": [
+              "Lift / elevator",
+              "24/7 security guard",
+              "Biometric entrance access",
+              "CCTV surveillance (exterior cameras)",
+              "Power backup / uninterrupted power supply",
+              "Housekeeping: 10 AM - 5 PM (1BHK), 12 PM - 5 PM (Studio)"
+            ],
+            "linen_policy": "Complimentary change of bed linens and towels after 3 days. Daily change available at INR 200/day.",
+            "not_provided": [
+              "Carbon monoxide alarm — not reported",
+              "Smoke alarm — not reported",
+              "Dental kit and slippers (Studio only — not provided)",
+              "Hotel-style room service"
+            ]
+          }
+        }
+      },
+      "generation": {
+        "response": "Hi Guest! Yes, for your safety and peace of mind, we have a 24/7 security guard on-site. The building also features biometric entrance access and CCTV surveillance in exterior areas.\n\nWarm regards,\nTeam Zest.Living",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 16060
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (amenities) — high confidence auto-send",
+      "totalLatencyMs": 63091,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:29:54.472Z"
+  },
+  {
+    "id": "7ad5995a-883d-478f-92da-92e5e609c62c",
+    "pipelineResult": {
+      "id": "7ad5995a-883d-478f-92da-92e5e609c62c",
+      "message": "can you offer some discount",
+      "guestName": "Priyanka",
+      "timestamp": "2026-03-04T16:33:08.488Z",
+      "classification": {
+        "intent": "special_request_complex",
+        "stage": "pre_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 83683
+      },
+      "isNeverAuto": true,
+      "kbMatch": {
+        "hasData": false,
+        "confidence": "low",
+        "fieldsRequired": [],
+        "fieldsFound": [],
+        "fieldsMissing": [],
+        "kbData": {}
+      },
+      "generation": null,
+      "routingDecision": "never_auto",
+      "routingReason": "Intent \"special_request_complex\" is in NEVER_AUTO list — always requires human handling",
+      "totalLatencyMs": 83683,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:33:08.488Z"
+  },
+  {
+    "id": "a2639188-06d5-4972-94e9-6a505dd50d21",
+    "pipelineResult": {
+      "id": "a2639188-06d5-4972-94e9-6a505dd50d21",
+      "message": "can you offer some discount",
+      "timestamp": "2026-03-04T16:36:22.339Z",
+      "classification": {
+        "intent": "booking_modification",
+        "stage": "pre_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 19012
+      },
+      "isNeverAuto": true,
+      "kbMatch": {
+        "hasData": false,
+        "confidence": "low",
+        "fieldsRequired": [],
+        "fieldsFound": [],
+        "fieldsMissing": [],
+        "kbData": {}
+      },
+      "generation": null,
+      "routingDecision": "never_auto",
+      "routingReason": "Intent \"booking_modification\" is in NEVER_AUTO list — always requires human handling",
+      "totalLatencyMs": 19012,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:36:22.339Z"
+  },
+  {
+    "id": "5be90c6e-9437-4adb-9a90-b536ab2eeaa0",
+    "pipelineResult": {
+      "id": "5be90c6e-9437-4adb-9a90-b536ab2eeaa0",
+      "message": "do you have parking",
+      "timestamp": "2026-03-04T16:39:44.258Z",
+      "classification": {
+        "intent": "parking_info",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 28600
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "parking.available"
+        ],
+        "fieldsFound": [
+          "parking.available"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Zest.Living — Golf Course Road, Sector 42",
+          "parking.available": true,
+          "parking": {
+            "available": true,
+            "type": "Free off-site parking",
+            "details": "Free on-street parking or on vacant plot available. Paid parking in designated permit area: INR 500/day.",
+            "booking_com_note": "Free off-site parking available"
+          }
+        }
+      },
+      "generation": {
+        "response": "Hi Guest, yes, we have free off-site parking available on-street or in a nearby vacant plot. We also have a paid parking option in a designated permit area if you prefer.\n\nWarm regards,\nTeam Zest.Living",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 23466
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (parking.available) — high confidence auto-send",
+      "stepTimings": {
+        "classifyMs": 28600,
+        "neverAutoCheckMs": 0,
+        "kbMatchMs": 0,
+        "generateMs": 23466,
+        "routingMs": 0
+      },
+      "totalLatencyMs": 52066,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:39:44.258Z"
+  },
+  {
+    "id": "120f1ca9-1661-4af3-afe0-8f997517b11b",
+    "pipelineResult": {
+      "id": "120f1ca9-1661-4af3-afe0-8f997517b11b",
+      "message": "do you have parking",
+      "guestName": "pankaj",
+      "timestamp": "2026-03-04T16:50:10.885Z",
+      "classification": {
+        "intent": "parking_info",
+        "stage": "post_booking",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-haiku-4-5-20251001",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 32686
+      },
+      "isNeverAuto": false,
+      "kbMatch": {
+        "hasData": true,
+        "confidence": "high",
+        "fieldsRequired": [
+          "parking.available"
+        ],
+        "fieldsFound": [
+          "parking.available"
+        ],
+        "fieldsMissing": [],
+        "kbData": {
+          "property_name": "Zest.Living — Golf Course Road, Sector 55",
+          "parking.available": true,
+          "parking": {
+            "available": true,
+            "type": "Free street parking + Paid indoor parking",
+            "details": "Free on-street parking or on vacant plot. Paid parking inside premises: INR 500/day (limited slots, subject to availability).",
+            "booking_com_note": "Parking available"
+          }
+        }
+      },
+      "generation": {
+        "response": "Hi pankaj! Yes, we have parking available. You can use the free street parking or the vacant plot nearby. We also offer paid indoor parking on the premises for INR 500 per day, though slots are limited and subject to availability. \n\nWarm regards,\nTeam Zest.Living",
+        "tokenUsage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "model": "claude-sonnet-4-6",
+          "estimatedCostUsd": 0
+        },
+        "latencyMs": 13348
+      },
+      "routingDecision": "auto_send",
+      "routingReason": "All KB fields found (parking.available) — high confidence auto-send",
+      "stepTimings": {
+        "classifyMs": 32686,
+        "neverAutoCheckMs": 0,
+        "kbMatchMs": 0,
+        "generateMs": 13348,
+        "routingMs": 0
+      },
+      "totalLatencyMs": 46034,
+      "totalCostUsd": 0
+    },
+    "createdAt": "2026-03-04T16:50:10.885Z"
+  }
+]

@@ -1,0 +1,388 @@
+{
+  "property_name": "Zest.Living — Golf Course Road, Sector 42",
+  "property_id": "277117",
+  "host_name": "Zest.Living",
+  "co_host": "Priyanka",
+  "superhost": true,
+  "overall_rating": 4.95,
+  "total_reviews": 279,
+  "beds24_address": "Golf Course Road, Sector 42, Gurugram, Haryana, India",
+  "booking_com_address": "zest.living 582, 122002 Gurgaon, India",
+  "booking_com_rating": 9.6,
+  "booking_com_reviews": 9,
+
+  "rooms": {
+    "the_executive_escape": {
+      "id": "579123",
+      "name": "The Executive Escape",
+      "airbnb_title": "Luxury | Fully Independent 1BHK | Golf Course road",
+      "booking_com_title": "One-Bedroom Superior Apartment",
+      "type": "Fully Independent 1BHK Apartment",
+      "layout": "Separate living room + bedroom + attached bathroom + fully equipped kitchen",
+      "max_guests": 2,
+      "bedrooms": 1,
+      "beds": "1 king bed (Wakefit orthopedic mattress) + 1 sofa in living room",
+      "bathrooms": 1,
+      "floor": "Units on various floors, all with city views",
+      "airbnb_rating": 4.96,
+      "airbnb_reviews": 252,
+      "airbnb_url": "https://www.airbnb.co.in/rooms/1390181964884586361",
+      "room_amenities": [
+        "King-size bed with Wakefit orthopedic mattress",
+        "Warm ambient lighting",
+        "Two 42-inch Smart TVs (living room + bedroom) — use your own OTT credentials",
+        "Ergonomic workspace with desk and chair",
+        "Sofa in living room",
+        "Air conditioning",
+        "High-speed WiFi",
+        "Lit vanity mirror in bathroom",
+        "Premium toiletries: shower gel, shampoo, hand wash, toilet roll, dental kit, pocket fragrance",
+        "Fully equipped kitchen: induction cooktop, microwave, kettle, refrigerator, RO water purifier, all cutlery",
+        "Extra cooking pots and basic spices available on call",
+        "Washing machine + cloth stand for laundry",
+        "Hair dryer and iron available on call",
+        "Room heater available on chargeable basis",
+        "Private balcony with city view"
+      ],
+      "booking_com_amenities": [
+        "Kitchen",
+        "City view",
+        "Washing machine",
+        "Free WiFi",
+        "Balcony",
+        "Free parking",
+        "Bath",
+        "Air conditioning",
+        "Daily housekeeping",
+        "Hot tub",
+        "Patio",
+        "Sun terrace",
+        "Work desk",
+        "Free toiletries",
+        "Private bathroom"
+      ]
+    },
+    "jacuzzi_terrace": {
+      "id": "622063",
+      "name": "Jacuzzi Terrace",
+      "airbnb_title": "The Luxe Studio Retreat | Private Couple Jacuzzi",
+      "booking_com_title": "Suite Apartment",
+      "type": "Studio Apartment with Private Jacuzzi",
+      "layout": "Living room + bedroom + 2 bathrooms + kitchen + private jacuzzi",
+      "max_guests": 2,
+      "bedrooms": 1,
+      "beds": "1 king bed (Wakefit orthopedic mattress) + 1 sofa",
+      "bathrooms": 2,
+      "special_feature": "Private couple jacuzzi — heated using 50-liter geyser (warm, not hot in winter)",
+      "airbnb_rating": 4.89,
+      "airbnb_reviews": 27,
+      "airbnb_url": "https://www.airbnb.co.in/rooms/1538791857196330770",
+      "room_amenities": [
+        "King-size bed with Wakefit orthopedic mattress",
+        "Warm ambient lighting",
+        "42-inch Smart TV — use your own OTT credentials",
+        "Private couple jacuzzi (heated using 50L geyser — warm in winter)",
+        "2 bathrooms",
+        "Premium toiletries: shower gel, shampoo, hand wash, toilet roll, dental kit, pocket fragrance",
+        "Lit vanity mirror in bathroom",
+        "Air conditioning",
+        "High-speed WiFi",
+        "Fully equipped kitchen: induction, microwave, kettle, refrigerator, RO water purifier, cutlery",
+        "Extra cooking pots and basic spices on call",
+        "Washing machine + cloth stand",
+        "Desk with chair",
+        "Sofa",
+        "Fridge",
+        "Microwave"
+      ]
+    }
+  },
+
+  "check_in": {
+    "time": "14:00",
+    "latest_check_in": "23:00",
+    "early_check_in": "Subject to availability",
+    "instructions": [
+      "Inform the property in advance of your expected arrival time",
+      "Valid ID must be provided before or during check-in",
+      "Foreign nationals must provide details for FRRO registration",
+      "Staff will meet you and provide keys at the apartment",
+      "Building has biometric entrance and CCTV surveillance",
+      "All couriers/deliveries to be collected by guests at ground floor for security"
+    ],
+    "self_check_in": false,
+    "key_location": "Keys + key card handed over by on-site staff/security guard",
+    "check_in_type": "Guard-assisted — mention your booking name to the security guard at the main gate. He verifies in the system and assists with check-in."
+  },
+
+  "check_out": {
+    "time": "10:00",
+    "booking_com_checkout": "10:00 to 11:00",
+    "late_check_out": "Subject to availability",
+    "instructions": [
+      "Turn off all appliances (AC, TV, lights, geyser)",
+      "Put trash in dustbin",
+      "Hand keys to the security guard downstairs (or leave in key pickup box if no one is present)",
+      "Drop us a message confirming checkout",
+      "Any breakage or loss of keys will attract additional charges"
+    ]
+  },
+
+  "wifi": {
+    "network_name": "Zest.living",
+    "password": "zen@394#",
+    "speed": "80-100 Mbps (working speed). No LAN/ethernet cable available — WiFi only.",
+    "booking_com_wifi_score": "10.0/10",
+    "note": "No Netflix/OTT account provided. Use your own credentials. Previous guest logins may appear — just log out and use your own."
+  },
+
+  "amenities": {
+    "in_room": [
+      "Air conditioning",
+      "Smart TV (42-inch) — bring your own OTT credentials",
+      "King-size bed with Wakefit orthopedic mattress",
+      "Sofa",
+      "Ergonomic workspace (desk + chair)",
+      "Private balcony with city view",
+      "Warm ambient lighting"
+    ],
+    "kitchen": [
+      "Induction cooktop",
+      "Microwave",
+      "Electric kettle",
+      "Refrigerator",
+      "RO water purifier",
+      "Complete cutlery set",
+      "Extra cooking pots on call",
+      "Basic spices on call"
+    ],
+    "bathroom": [
+      "Premium shower gel and shampoo",
+      "Hand wash",
+      "Toilet roll",
+      "Dental kit",
+      "Pocket fragrance",
+      "Lit vanity mirror",
+      "Geyser (hot water)",
+      "Exhaust fan"
+    ],
+    "laundry": [
+      "Washing machine (in-building, shared)",
+      "Cloth stand / drying rack"
+    ],
+    "on_call": [
+      "Hair dryer — available on request",
+      "Iron — available on request",
+      "Extra cooking pots — available on request",
+      "Basic spices — available on request",
+      "Room heater — chargeable basis"
+    ],
+    "building": [
+      "Lift / elevator",
+      "24/7 security guard",
+      "Biometric entrance access",
+      "CCTV surveillance (exterior cameras)",
+      "Power backup / uninterrupted power supply",
+      "Daily housekeeping",
+      "Full-day security",
+      "Lounge area",
+      "Sun terrace"
+    ],
+    "not_provided": [
+      "Carbon monoxide alarm — not reported",
+      "Smoke alarm — not reported",
+      "Slippers — not provided",
+      "Hotel-style room service"
+    ]
+  },
+
+  "house_rules": [
+    "Maximum 2 guests per apartment — strictly no extra persons or outside guests allowed",
+    "No parties or events — INR 5,000 fine for violations",
+    "No smoking indoors — INR 2,000 charge for smoke/burn damage; smoking allowed on terrace/balcony only",
+    "Room decorations require INR 5,000 refundable security deposit (refunded if property remains undamaged)",
+    "Keep TV volume low — other guests share the building",
+    "All deliveries/couriers must be collected by guests at ground floor",
+    "Jacuzzi water is warm (not hot) in winter — heated using 50L geyser",
+    "Electric car charging: INR 300/day",
+    "Carrying your own heater or heavy appliances will incur electricity charges on guest",
+    "No pets allowed",
+    "Children of any age are welcome (Booking.com policy)",
+    "Hen/stag parties not allowed"
+  ],
+
+  "directions": {
+    "address": "Golf Course Road, Sector 42, Gurugram, Haryana 122002, India",
+    "google_maps_link": "https://maps.app.goo.gl/m8tJgdvAhvCvqudEA",
+    "google_maps_area": "Golf Course Road, Sector 42 — search '582, main road, Sector 42, Gurugram'",
+    "from_airport": "IGI Delhi International Airport: 11-15 KM (20 minutes drive)",
+    "nearest_metro": [
+      "Sector 42-43 Rapid Metro: 1 KM (10 min walk)",
+      "Sikanderpur Rapid Metro: 3 KM (4-5 min by cab/auto)",
+      "Phase 1 Metro: 2.1 KM",
+      "Guru Dronacharya Metro: 3.3 KM"
+    ],
+    "landmarks": [
+      "E&Y Office: 600m",
+      "One Horizon Centre (DELL, Samsung corporate offices): 1 KM (10 min walk)",
+      "Global Foyer, Sector 43: 1 KM",
+      "Cyber Hub: 5 KM (5-7 min drive via Raghvendra Marg)",
+      "Central Children's Park: 650m",
+      "Qutub Minar: 13 KM"
+    ],
+    "area_description": "Posh area of Gurgaon on Golf Course Road, well connected to major corporate offices and shopping malls"
+  },
+
+  "parking": {
+    "available": true,
+    "type": "Free off-site parking",
+    "details": "Free on-street parking or on vacant plot available. Paid parking in designated permit area: INR 500/day.",
+    "booking_com_note": "Free off-site parking available"
+  },
+
+  "nearby": {
+    "restaurants": [
+      { "name": "Manhattan Bar", "type": "Cafe/Bar", "distance": "1.2 KM" },
+      { "name": "Coffee Day Xpress", "type": "Cafe", "distance": "1.4 KM" },
+      { "name": "Club Entourage Bar", "type": "Bar", "distance": "1.9 KM" },
+      { "name": "Effingut Microbrewery", "type": "Brewery/Restaurant", "distance": "Down the road (recommended by guests)" },
+      { "name": "Various restaurants on Golf Course Road", "distance": "Nearby by auto 10-15 min" }
+    ],
+    "attractions": [
+      { "name": "Cyber Hub", "distance": "5 KM (5-7 min drive)" },
+      { "name": "Qutub Minar", "distance": "13 KM" },
+      { "name": "Central Children's Park", "distance": "650m" },
+      { "name": "Lodhi Gardens (Delhi)", "distance": "25 KM" },
+      { "name": "India Gate (Delhi)", "distance": "25 KM" }
+    ],
+    "hospitals": [
+      { "name": "Paras Hospital", "distance": "1.5 KM" },
+      { "name": "Fortis Hospital", "distance": "2.5 KM" }
+    ],
+    "corporate_offices": [
+      { "name": "E&Y Office", "distance": "600m" },
+      { "name": "One Horizon Centre (DELL, Samsung)", "distance": "1 KM (10 min walk)" },
+      { "name": "Global Foyer, Sector 43", "distance": "1 KM" }
+    ]
+  },
+
+  "emergency": {
+    "contact_name": "Priyanka (Host)",
+    "phone": "+91-9773950713",
+    "backup_phone": "+91-9818185096",
+    "on_site_staff": "Caretaker: +91-9818185096 — available for check-in/out, housekeeping, and daily assistance. Security guard at main gate.",
+    "response_time": "Responds within an hour (100% response rate)",
+    "nearest_hospital": "Paras Hospital (1.5 KM), Fortis Hospital (2.5 KM)",
+    "security": "24/7 security guard at main gate, biometric entrance, CCTV surveillance"
+  },
+
+  "custom_faqs": [
+    {
+      "question": "What's the difference between The Executive Escape and Jacuzzi Terrace?",
+      "answer": "The Executive Escape is a 1BHK with separate living room, two 42-inch TVs, ergonomic workspace, and is ideal for professionals. The Jacuzzi Terrace is a studio with a private couple jacuzzi, 2 bathrooms, and is perfect for couples. Both have king beds with Wakefit orthopedic mattresses and fully equipped kitchens."
+    },
+    {
+      "question": "Is there a jacuzzi?",
+      "answer": "Yes! The Luxe Studio Retreat (Jacuzzi Terrace room) has a private couple jacuzzi. Note: In winter, the water is warm (not hot) as it's heated using a 50-liter geyser."
+    },
+    {
+      "question": "Can I use Netflix/Prime on the TV?",
+      "answer": "Yes, we have 42-inch Smart TVs. Please log in with your own OTT credentials (Netflix, Amazon Prime, Hotstar, etc.). We don't provide shared accounts."
+    },
+    {
+      "question": "Is housekeeping provided?",
+      "answer": "Yes, daily housekeeping is available. We also have a resident manager on-property for any assistance you need."
+    },
+    {
+      "question": "Do you provide a room heater in winter?",
+      "answer": "Yes, room heaters are available on a chargeable basis. Please note: bringing your own heater or heavy appliances will incur electricity charges on the guest."
+    },
+    {
+      "question": "Is this suitable for couples?",
+      "answer": "Absolutely! The Jacuzzi Terrace room is especially popular with couples — it features a private jacuzzi, ambient lighting, and premium toiletries. Both rooms offer a comfortable, private, and secure experience."
+    },
+    {
+      "question": "What kitchen items are available?",
+      "answer": "Full kitchen: induction cooktop, microwave, electric kettle, refrigerator, RO water purifier, and complete cutlery. Extra cooking pots and basic spices are provided on call."
+    },
+    {
+      "question": "Is laundry available?",
+      "answer": "Yes, a washing machine and cloth stand/drying rack are available in the building for your convenience."
+    },
+    {
+      "question": "Can I decorate for a birthday or anniversary?",
+      "answer": "Yes, but decorations require a refundable security deposit of INR 5,000. The deposit is fully refunded if walls, sheets, and everything remains in good condition after removal."
+    },
+    {
+      "question": "Is the area walkable?",
+      "answer": "The road itself is not very walkable (as noted by guests), but an auto or cab ride to nearby restaurants and stores takes just 10-15 minutes. The Sector 42-43 Rapid Metro is 1 KM away. Effingut Microbrewery is down the road."
+    },
+    {
+      "question": "How do I get groceries or food delivered?",
+      "answer": "Blinkit and Zomato deliver to the property. All deliveries must be collected by guests at the ground floor for security reasons."
+    },
+    {
+      "question": "Is there an airport shuttle?",
+      "answer": "No airport shuttle service. IGI Airport is about 15 KM away (20 min drive). You can book an Uber/Ola cab."
+    },
+    {
+      "question": "Can I charge my electric car?",
+      "answer": "Yes, electric car charging is available at INR 300 per day."
+    },
+    {
+      "question": "Do you know the Netflix password? / Can I watch Netflix?",
+      "answer": "We don't provide a shared Netflix account. Please log in with your own OTT credentials (Netflix, Prime, Hotstar). If you see a previous guest's login, just log out and use your own. Some international accounts (e.g., Canadian Netflix) may need settings changed to work in India."
+    },
+    {
+      "question": "I need laundry service — who can do wash, dry, iron?",
+      "answer": "We have a local laundry person who does pickup, wash, dry, and iron. Contact: 7982035385. Tell him you're staying at Zest.Living Sector 42. Rates vary — discuss directly with him."
+    },
+    {
+      "question": "Can I get a cook / home-cooked meals?",
+      "answer": "We can help arrange a cook. You can also try ChefCart for on-demand chef service. For a personal cook, we need 2-3 days to arrange. During festival periods (like Holi), availability may be limited."
+    },
+    {
+      "question": "Is there a gym nearby?",
+      "answer": "Yes! CultFit and 2-3 other gyms are within walking distance, right in front of our property."
+    },
+    {
+      "question": "Can I check out late?",
+      "answer": "Late checkout is confirmed on the same day based on availability. During festivals or low-occupancy days, we often allow checkout until 3-4 PM. Just ask in advance."
+    },
+    {
+      "question": "How do I turn on the jacuzzi?",
+      "answer": "Our staff will help you set it up. Just message us and we'll send someone to assist. The jacuzzi uses a 50L geyser, so water is warm (not very hot) in winter."
+    },
+    {
+      "question": "I forgot my ID / only have digital ID — is that okay?",
+      "answer": "Yes, we accept DigiLocker IDs. Download the DigiLocker app and show your digital ID to the guard. Physical ID is preferred but DigiLocker works."
+    },
+    {
+      "question": "Is there an ethernet/LAN cable for internet?",
+      "answer": "No, we only provide WiFi (80-100 Mbps). There's no LAN cable or landline connection available."
+    },
+    {
+      "question": "What do I do at checkout? Do I need to clean?",
+      "answer": "No need to clean — our housekeeping team will handle everything. Just turn off all appliances, put trash in the dustbin, and hand keys to the security guard downstairs."
+    },
+    {
+      "question": "Do you have a bigger apartment for longer stays?",
+      "answer": "Yes! We have a more spacious 1BHK at our Sector 55 location with a cook who makes home-cooked food. Great for stays of a month or longer. Ask us for details and pricing."
+    },
+    {
+      "question": "Where is the bedroom light switch?",
+      "answer": "Light switches are located near the bedroom door entrance. If you can't find them, message us and we'll guide you or send staff."
+    },
+    {
+      "question": "I booked Sector 42 but stayed at Sector 55 last time — are they different?",
+      "answer": "Yes, we have two locations: Sector 42 (582, main road) and Sector 55 (A1/32, Sushant Lok 2). Check your booking confirmation for the correct address. Both are on Golf Course Road but different buildings."
+    }
+  ],
+
+  "response_preferences": {
+    "tone": "friendly",
+    "language": "english",
+    "signature": "Warm regards,\nTeam Zest.Living",
+    "max_response_length": 500
+  }
+}
